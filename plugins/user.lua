@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "tpope/vim-surround",
+  "tpope/vim-fugitive",
+  {
+    "ellisonleao/gruvbox.nvim",
+    as = "gruvbox",
+    lazy = false,
+    config = function()
+      require("gruvbox").setup()
+    end
+  }
 }
